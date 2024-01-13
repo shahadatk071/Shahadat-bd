@@ -1,21 +1,23 @@
 *{
-    padding:0;
+    align-content: center;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(191, 209, 225);
+   
 }
 h1{
+
     background-color: rgb(20, 95, 202);
     box-sizing: border-box;
     width: 60vh;
-    height: 10vh;
+    height: 10;
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 15vh;
-    margin-left: 35vh;
-    margin-right: 35vh;
-    font-size: 4vh;
+    margin:10px;
+    margin-bottom: 0%;
+     font-size: 4vh;
     color: rgb(233, 243, 243);
  }
 .container
@@ -25,44 +27,99 @@ h1{
     box-sizing: border-box;
     border-radius: 10px;
     padding: 10px;
-    margin-left: 35vh;
-    margin-right: 35vh;
+    margin: 10px;
+    margin-top: 0;
     width: 60vh;
-    background-color:paleturquoise;
+    background-color:rgba(70, 121, 121, 0.26);
     display: flex;
     color: black;
     
 }
 .apps
 {
-background-color: rgb(25, 183, 125);
+background-color: #0b6c4c;
 margin: 1.9vh;
 border-radius: 10px;
 
 }
 .apps a{
     color: bisque;
+    background-color: #0b6c4c;
     border-radius: 5px;
     color: azure;
     text-align: justify;
+    text-decoration: none;
     
 }
 .about{
-    background-color: rgb(25, 183, 125);
+    background-color: #0b6c4c;
     margin: 10px;
     border-radius: 10px;
-
+    
 }
 .about a
 {
-    color: bisque;
+   background-color: #0b6c4c;
     border-radius: 5px;
     color: azure;
     text-decoration: none;
-}
+   
+ }
+    
 p{
     width: 50vh;
 }
-    map{
-       break-after:w] ;
-    }
+p{
+    margin-left:10px;
+    margin-top: 90px;
+    width: 100%;
+}
+.map {
+border: 2px solid rgb(195, 185, 185);
+margin-top: 50px;
+margin-left: 10px;
+width: 350px;
+text-align: center;
+}
+.map a
+{
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(24, 79, 49);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 50vw;
+    margin: 10px;
+}
+
+input, textarea {
+    padding: 10px 5px
+}
+.message {
+    max-width: 150px;
+    padding: 10px 15px;
+}
+.track{
+    margin-top: 40px;
+}
+.track a{
+    padding-right: 40px;
+    padding-left:  60px;
+    font-style:block;
+    margin-left:10px;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-width: 2px;
+    font-size: 20px;
+    background-color: aquamarine;
+}
+
+.main{
+    align-items: center;
+    
+}
+
